@@ -1,0 +1,12 @@
+class TestStuff{
+  int sumoftwo(int x,int y){
+    return x+y;
+}
+
+  public static void main(String[] args){
+    int x=5;
+    int y=5;
+    int result=sumoftwo(x,y);
+    System.out.print(result);
+}
+}
